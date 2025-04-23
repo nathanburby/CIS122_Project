@@ -1,51 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CIS122_Project
 {
-	public class Library
+	using System.Collections.Generic;
+
+	namespace CIS122_Project
 	{
-		public List<Book> _books;
-
-		public Library()
+		public class Library
 		{
-			_books = new List<Book>();
-		}
+			public List<Book> _books;
 
-		public void AddBook(Book newBook)
-		{
-			_books.Add(newBook);
-		}
-
-		public bool DeleteBook(Book findBook)
-		{
-			bool removed = false;
-			for (int i = _books.Count - 1; i >= 0; i--)
+			public Library()
 			{
-				if (_books[i] == findBook)
+				_books = new List<Book>();
+			}
+
+			public void AddBook(Book newBook)
+			{
+				_books.Add(newBook);
+			}
+
+			public bool DeleteBook(Book findBook)
+			{
+				for (int i = _books.Count - 1; i >= 0; i--)
 				{
-					_books.RemoveAt(i);
-					removed = true;
-					break;
+					if (_books[i].Equals(findBook))
+					{
+						_books.RemoveAt(i);
+						return true;
+					}
 				}
+				return false;
 			}
-			return removed;
-		}
 
-		public bool Replace(Book oldBook, Book newBook)
-		{
-			if (newBook == null || oldBook == newBook) return false;
-
-			int index = _books.IndexOf(oldBook);
-			if (index != -1)
+			public bool Replace(Book oldBook, Book newBook)
 			{
-				_books[index] = newBook;
-				return true;
+				if (newBook == null) return false;
+
+				int index = _books.IndexOf(oldBook);
+				if (index != -1)
+				{
+					_books[index] = newBook;
+					return true;
+				}
+				return false;
 			}
-			return false;
 		}
 	}
 }
