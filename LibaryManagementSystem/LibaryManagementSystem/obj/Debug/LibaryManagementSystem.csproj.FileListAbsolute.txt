@@ -1,0 +1,6 @@
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.DashboardForm.resources
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.Login.resources
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.CoreCompileInputs.cache
