@@ -33,17 +33,18 @@
 			this.exit_btn = new System.Windows.Forms.Label();
 			this.panel5 = new System.Windows.Forms.Panel();
 			this.label7 = new System.Windows.Forms.Label();
-			this.logOutImg = new System.Windows.Forms.PictureBox();
 			this.ReturnBtn = new System.Windows.Forms.Button();
 			this.IssueBtn = new System.Windows.Forms.Button();
 			this.AddBtn = new System.Windows.Forms.Button();
 			this.dashboard_btn = new System.Windows.Forms.Button();
 			this.label6 = new System.Windows.Forms.Label();
+			this.logOutImg = new System.Windows.Forms.PictureBox();
 			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.returnBooks1 = new LibraryManagementSystem.ReturnBooks();
 			this.dashboard2 = new LibraryManagementSystem.Dashboard();
+			this.addBooks1 = new LibraryManagementSystem.AddBooks();
 			this.issueBooks2 = new LibraryManagementSystem.IssueBooks();
-			this.returnBooks2 = new LibraryManagementSystem.ReturnBooks();
-			this.addBooks2 = new LibraryManagementSystem.AddBooks();
+			this.issueBooks1 = new LibraryManagementSystem.IssueBooks();
 			this.panel4.SuspendLayout();
 			this.panel5.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.logOutImg)).BeginInit();
@@ -113,17 +114,6 @@
 			this.label7.Size = new System.Drawing.Size(65, 21);
 			this.label7.TabIndex = 7;
 			this.label7.Text = "Log out";
-			// 
-			// logOutImg
-			// 
-			this.logOutImg.Image = global::LibraryManagementSystem.Properties.Resources.logOut3;
-			this.logOutImg.Location = new System.Drawing.Point(11, 507);
-			this.logOutImg.Name = "logOutImg";
-			this.logOutImg.Size = new System.Drawing.Size(45, 45);
-			this.logOutImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.logOutImg.TabIndex = 6;
-			this.logOutImg.TabStop = false;
-			this.logOutImg.Click += new System.EventHandler(this.logout_btn_Click);
 			// 
 			// ReturnBtn
 			// 
@@ -196,9 +186,20 @@
 			this.label6.TabIndex = 1;
 			this.label6.Text = "Welcome, Admin";
 			// 
+			// logOutImg
+			// 
+			this.logOutImg.Image = global::LibaryManagementSystem.Properties.Resources.logOut3;
+			this.logOutImg.Location = new System.Drawing.Point(11, 507);
+			this.logOutImg.Name = "logOutImg";
+			this.logOutImg.Size = new System.Drawing.Size(45, 45);
+			this.logOutImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.logOutImg.TabIndex = 6;
+			this.logOutImg.TabStop = false;
+			this.logOutImg.Click += new System.EventHandler(this.logout_btn_Click);
+			// 
 			// pictureBox2
 			// 
-			this.pictureBox2.Image = global::LibraryManagementSystem.Properties.Resources.LibraryLogo2;
+			this.pictureBox2.Image = global::LibaryManagementSystem.Properties.Resources.LibraryLogo2;
 			this.pictureBox2.Location = new System.Drawing.Point(55, 18);
 			this.pictureBox2.Name = "pictureBox2";
 			this.pictureBox2.Size = new System.Drawing.Size(100, 100);
@@ -206,43 +207,53 @@
 			this.pictureBox2.TabIndex = 0;
 			this.pictureBox2.TabStop = false;
 			// 
+			// returnBooks1
+			// 
+			this.returnBooks1.Location = new System.Drawing.Point(219, 35);
+			this.returnBooks1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.returnBooks1.Name = "returnBooks1";
+			this.returnBooks1.Size = new System.Drawing.Size(1173, 695);
+			this.returnBooks1.TabIndex = 10;
+			// 
 			// dashboard2
 			// 
-			this.dashboard2.Location = new System.Drawing.Point(220, 35);
+			this.dashboard2.Location = new System.Drawing.Point(219, 35);
 			this.dashboard2.Name = "dashboard2";
 			this.dashboard2.Size = new System.Drawing.Size(880, 565);
-			this.dashboard2.TabIndex = 5;
+			this.dashboard2.TabIndex = 9;
+			// 
+			// addBooks1
+			// 
+			this.addBooks1.Location = new System.Drawing.Point(219, 35);
+			this.addBooks1.Margin = new System.Windows.Forms.Padding(4);
+			this.addBooks1.Name = "addBooks1";
+			this.addBooks1.Size = new System.Drawing.Size(880, 565);
+			this.addBooks1.TabIndex = 8;
 			// 
 			// issueBooks2
 			// 
-			this.issueBooks2.Location = new System.Drawing.Point(220, 35);
-			this.issueBooks2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.issueBooks2.Location = new System.Drawing.Point(219, 35);
+			this.issueBooks2.Margin = new System.Windows.Forms.Padding(4);
 			this.issueBooks2.Name = "issueBooks2";
 			this.issueBooks2.Size = new System.Drawing.Size(880, 565);
 			this.issueBooks2.TabIndex = 3;
 			// 
-			// returnBooks2
+			// issueBooks1
 			// 
-			this.returnBooks2.Location = new System.Drawing.Point(220, 35);
-			this.returnBooks2.Name = "returnBooks2";
-			this.returnBooks2.Size = new System.Drawing.Size(880, 565);
-			this.returnBooks2.TabIndex = 4;
-			// 
-			// addBooks2
-			// 
-			this.addBooks2.Location = new System.Drawing.Point(220, 35);
-			this.addBooks2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.addBooks2.Name = "addBooks2";
-			this.addBooks2.Size = new System.Drawing.Size(880, 565);
-			this.addBooks2.TabIndex = 6;
+			this.issueBooks1.Location = new System.Drawing.Point(219, 35);
+			this.issueBooks1.Margin = new System.Windows.Forms.Padding(4);
+			this.issueBooks1.Name = "issueBooks1";
+			this.issueBooks1.Size = new System.Drawing.Size(0, 0);
+			this.issueBooks1.TabIndex = 2;
 			// 
 			// MainForm
 			// 
 			this.ClientSize = new System.Drawing.Size(1100, 600);
-			this.Controls.Add(this.addBooks2);
+			this.Controls.Add(this.returnBooks1);
 			this.Controls.Add(this.dashboard2);
-			this.Controls.Add(this.returnBooks2);
+			this.Controls.Add(this.addBooks1);
 			this.Controls.Add(this.issueBooks2);
+			this.Controls.Add(this.issueBooks1);
 			this.Controls.Add(this.panel5);
 			this.Controls.Add(this.panel4);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -273,10 +284,6 @@
 		private System.Windows.Forms.PictureBox logOutPic;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Panel panel3;
-		private AddBooks addBooks1;
-		private IssueBooks issueBooks1;
-		private ReturnBooks returnBooks1;
-		private Dashboard dashboard1;
 		private System.Windows.Forms.Panel panel4;
 		private System.Windows.Forms.Label exit_btn;
 		private System.Windows.Forms.Label label5;
@@ -289,9 +296,10 @@
 		private System.Windows.Forms.Button ReturnBtn;
 		private System.Windows.Forms.Button IssueBtn;
 		private System.Windows.Forms.Button AddBtn;
+		private IssueBooks issueBooks1;
 		private IssueBooks issueBooks2;
+		private AddBooks addBooks1;
 		private Dashboard dashboard2;
-		private ReturnBooks returnBooks2;
-		private AddBooks addBooks2;
+		private ReturnBooks returnBooks1;
 	}
 }

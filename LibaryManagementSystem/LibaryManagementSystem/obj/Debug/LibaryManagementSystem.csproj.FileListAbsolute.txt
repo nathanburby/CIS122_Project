@@ -4,3 +4,20 @@ C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManageme
 C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.Properties.Resources.resources
 C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.GenerateResource.cache
 C:\Users\ASUS\OneDrive\Documents\CIS 122\Libary management System\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\bin\Debug\LibaryManagementSystem.exe.config
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\bin\Debug\LibaryManagementSystem.exe
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\bin\Debug\LibaryManagementSystem.pdb
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.Form1.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.LoginForm.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.Properties.Resources.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.GenerateResource.cache
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.exe
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibaryManagementSystem.pdb
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.RegisterForm.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.Dashboard.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.IssueBooks.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.MainForm.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.AddBooks.resources
+C:\Users\nqbur\OneDrive\Desktop\CIS122_Project\LibaryManagementSystem\LibaryManagementSystem\obj\Debug\LibraryManagementSystem.ReturnBooks.resources
