@@ -1,1 +1,6 @@
-﻿SELECT * FROM books
+﻿SELECT * FROM issues
+
+DELETE FROM issues
+
+ALTER TABLE issues
+DROP COLUMN image
